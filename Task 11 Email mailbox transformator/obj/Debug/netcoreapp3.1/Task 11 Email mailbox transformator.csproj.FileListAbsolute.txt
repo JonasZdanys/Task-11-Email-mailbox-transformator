@@ -1,0 +1,13 @@
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\bin\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.exe
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\bin\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.deps.json
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\bin\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.runtimeconfig.json
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\bin\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.runtimeconfig.dev.json
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\bin\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.dll
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\bin\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.pdb
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\obj\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.csprojAssemblyReference.cache
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\obj\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.AssemblyInfoInputs.cache
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\obj\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.AssemblyInfo.cs
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\obj\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.csproj.CoreCompileInputs.cache
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\obj\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.dll
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\obj\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.pdb
+C:\Users\pdo2810\source\repos\Task 11 Email mailbox transformator\Task 11 Email mailbox transformator\obj\Debug\netcoreapp3.1\Task 11 Email mailbox transformator.genruntimeconfig.cache
