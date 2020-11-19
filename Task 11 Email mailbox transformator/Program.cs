@@ -28,10 +28,7 @@ namespace Task_11_Email_mailbox_transformator
 
             foreach (var row in rows)
             {
-                foreach (var col in row.Trim().Split('\t'))
-                {
-                    Console.WriteLine(col);
-                }
+                
             }
         }
     }
