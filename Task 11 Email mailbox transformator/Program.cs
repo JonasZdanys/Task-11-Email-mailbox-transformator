@@ -23,14 +23,18 @@ namespace Task_11_Email_mailbox_transformator
         {
             string content = File.ReadAllText(@"C:\Temp\Misc\InfoForComms.txt"); //(ReadString("Please provide the path and file name: "));
             List<string> rows = new List<string>(content.Split('\n'));
-            var data = new Dictionary<string, string>(); 
+            var data = new Dictionary<string, string>();
             //Console.WriteLine($"Result list: {JsonSerializer.Serialize(rows)}");
-
             foreach (var row in rows)
             {
                 foreach (var col in row.Trim().Split('\t'))
                 {
-                    Console.WriteLine(col);
+                    //Console.WriteLine(col);
+                    if (col.Contains ("SEC-DL-"))
+                    {
+                        test.Add(x, col);
+                        x++;
+                    }
                 }
             }
         }
