@@ -25,7 +25,7 @@ namespace Task_11_Email_mailbox_transformator
             var data = new Dictionary<string, string>();
             for (int i = 0; i < rows.Count; i++)
             {
-                if (!rows[i].Contains("\t\r") || !(rows[i] == null))
+                if (rows[i].Contains("@"))
                 {
                     var col = rows[i].Trim().Split('\t');
                     if (col[1].Contains(","))
