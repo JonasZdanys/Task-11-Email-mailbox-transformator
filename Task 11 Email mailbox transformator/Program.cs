@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
-using System.Text.Json;
 
 
 namespace Task_11_Email_mailbox_transformator
@@ -24,18 +23,16 @@ namespace Task_11_Email_mailbox_transformator
             string content = File.ReadAllText(@"C:\Temp\Misc\InfoForComms.txt"); //(ReadString("Please provide the path and file name: "));
             List<string> rows = new List<string>(content.Split('\n'));
             var data = new Dictionary<string, string>();
-            //Console.WriteLine($"Result list: {JsonSerializer.Serialize(rows)}");
             for (int i = 0; i < rows.Count; i++)
             {
-                var col = rows[i].Trim().Split('\t');
-                if (col[1] != null) //rows ar turi /t
+                if (!rows[i].Contains("\t\r") || !(rows[i] == null))
                 {
+                    var col = rows[i].Trim().Split('\t');
                     if (col[1].Contains(","))
                     {
                         foreach (var email in col[1].Split(','))
                         {
-                            //Console.WriteLine(email);
-                            if (data.TryGetValue(email,out string dls))
+                            if (data.TryGetValue(email, out string dls))
                             {
                                 dls += col[0]; //atskrit kableliais
                             }
@@ -46,24 +43,7 @@ namespace Task_11_Email_mailbox_transformator
                         }
                     }
                 }
-                /*else
-                {
-                    col[1] = "Mailbox col[0] does not have an owner";
-                    data.Add(col[1], col[0]);
-                }
             }
-            Console.WriteLine($"Result list: {JsonSerializer.Serialize(data)}");
-            {
-                foreach (var col in row.Trim().Split('\t'))
-                {
-                    //Console.WriteLine(col);
-                    if (col.Contains ("SEC-DL-"))
-                    {
-                        test.Add(x, col);
-                        x++;
-                    }
-                }
-            }*/
         }
     }
 }
